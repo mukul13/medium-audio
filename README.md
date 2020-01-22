@@ -4,7 +4,7 @@
 ![alt text](https://github.com/mukul13/medium-audio/blob/master/preview.png)
 
 A Chrome Extension Using React, Redux and Material UI. 
-After installing, Click on Play button to listen to medium blogs as podcasts. 
+After installing, Click on Play button to listen to medium blogs as podcasts. (Currently in development phase)
 
 
 ## To install 
