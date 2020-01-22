@@ -1,12 +1,8 @@
 {
-  "name": "Swipe hand in the air",
+  "name": "Medium Audio",
   "version": "0.0.1",
   "manifest_version": 2,
-  "description": "swipe hand gesture recognition",
-  "icons": {
-    "16": "images/icon-16.png",
-    "128": "images/icon-128.png"
-  },
+  "description": "Convert Medium Blogs into Podcasts.",
   "default_locale": "en",
   "background": {
     "scripts": ["background.bundle.js"]
@@ -20,10 +16,6 @@
   ],
   "permissions": ["history", "webNavigation", "*://*/*"],
   "browser_action": {
-    "default_icon": {
-      "19": "images/icon-19.png",
-      "38": "images/icon-38.png"
-    },
     "default_title": "history remover",
     "default_popup": "popup.html"
   },

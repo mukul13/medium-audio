@@ -1,9 +1,9 @@
 {
-  "name": "chrome-extension-boilerplate",
+  "name": "MediumAudio",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://fxnoob.github.io/chrome-extension-boilerplate",
+  "homepage": "https://github.com/mukul13/medium-audio",
   "scripts": {
     "start": "webpack-dev-server --config ./webpack.config.js --mode development",
     "dev": "webpack --watch --progress --colors --config webpack.config.js --mode=development",

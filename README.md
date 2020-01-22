@@ -1,12 +1,13 @@
 
-Error: chrome extension invalidated
-# A Chrome extension boilerplate.
 
-## Basic Usage
+Chrome Extension Using React, Redux and Material UI
 
-``` 
-    yarn
-    yarn dev
+## To install 
+```
+yarn
+yarn build
+
+and then load dist folder into chrome://extensions tab
 ```
 
 ## features: 
@@ -33,3 +34,11 @@ Error: chrome extension invalidated
 >  * Write chrome extension's popup page codes in `popup-page` Reactjs directory system. 
  
  >  *  Write chrome extension's content scripts codes in `content-scripts` Reactjs directory system. 
+
+
+Boilerplate link :- https://github.com/fxnoob/chrome-extension-boilerplate
+
+##Todo:- 
+
+- content_script.bundle.js:59 Uncaught (in promise) Error: Extension context invalidated.
+- Remove Errors
