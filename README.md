@@ -19,7 +19,7 @@ Boilerplate link :- https://github.com/fxnoob/chrome-extension-boilerplate
 
 
 
-##Todo:- 
+## Todo:- 
 
 - Readme in detail
 - error: content_script.bundle.js:59 Uncaught (in promise) Error: Extension context invalidated.
