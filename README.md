@@ -1,3 +1,5 @@
+
+Error: chrome extension invalidated
 # A Chrome extension boilerplate.
 
 ## Basic Usage

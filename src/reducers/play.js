@@ -1,8 +1,8 @@
-const initialState = '';
+const initialState = false;
 
 export default (state = initialState, action) => {
   switch (action.type) {
-    case 'ADD_STORY':
+    case 'IS_PLAYING':
       return !!action.payload;
     default:
       return state;

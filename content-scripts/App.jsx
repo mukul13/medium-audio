@@ -15,7 +15,7 @@ if(document.querySelector('[data-selectable-paragraph]')) {
 // wait for the store to connect to the background page
 store.ready().then(() => {
 	ReactDOM.render(
-	  <Index 
+	  <Index
 	  store={store}
 	  document={document} />,
 	  document.getElementById('rcr-anchor')

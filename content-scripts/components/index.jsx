@@ -9,6 +9,23 @@ class Index extends React.Component {
     super(props);
   }
 
+  play = (blogText) => {
+    this.props.dispatch({
+      type: 'ADD_STORY',
+      payload: blogText
+    });
+
+    this.props.dispatch({
+      type: 'IS_PLAYING',
+      payload: true
+    });
+
+
+    speechSynthesis.cancel()
+    const utterThis = new SpeechSynthesisUtterance(blogText);
+    speechSynthesis.speak(utterThis);
+  }
+
   render() {
   	let blogText = ''
   	if(document) {
@@ -17,14 +34,11 @@ class Index extends React.Component {
   		  blogText = `${blogText} ${c.innerText}`
   		})
   	}
-    return <div>
+    return <div style={{padding: '10px', textAlign: 'center'}}>
       <Fab color='primary' aria-label='add'
         onClick={() => {
-          this.props.dispatch({
-              type: 'ADD_STORY',
-              payload: blogText
-            });
-          }}
+          this.play(blogText) 
+        }}
       >
         <PlayArrow />
       </Fab>
