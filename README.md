@@ -1,6 +1,11 @@
 
+# Medium Audio (Text to Speech)
 
-Chrome Extension Using React, Redux and Material UI
+![alt text](https://github.com/mukul13/medium-audio/blob/master/preview.png)
+
+This is a Chrome Extension Using React, Redux and Material UI. 
+After installing, click on Play button to listen to medium blogs as podcasts. 
+
 
 ## To install 
 ```
@@ -10,35 +15,10 @@ yarn build
 and then load dist folder into chrome://extensions tab
 ```
 
-## features: 
-> 1. Support for  ES7 ( with Babel and polyfill)
-> 2. popup page with reactjs and material ui framework
-> 3. Content script with reactjs and material ui framework
-> 4. Bundling (webpack)
-
-## directory structure
-> *    `src/` is root directory for a chrome extension. it includes `manifest.json` file and other static stuff.
-
-> *    `src/background.js`  is main background js  file for the chrome extension.
- 
- > *  `popup-page` is the directory which includes react js setup for popup page.
- 
- > *  `content-scripts` is the directory  directory which includes react js setup for content script.
- 
- > *  `src/utils` is the directory for utilities that can be written in es6,es7 or es8...
- 
-## How to extend ? 
-
->   *  Write chrome extension's background scripts code in `src/background.js`
-
->  * Write chrome extension's popup page codes in `popup-page` Reactjs directory system. 
- 
- >  *  Write chrome extension's content scripts codes in `content-scripts` Reactjs directory system. 
-
-
 Boilerplate link :- https://github.com/fxnoob/chrome-extension-boilerplate
 
-##Todo:- 
 
-- content_script.bundle.js:59 Uncaught (in promise) Error: Extension context invalidated.
-- Remove Errors
+
+##Todo:- 
+- Readme in detail
+- error: content_script.bundle.js:59 Uncaught (in promise) Error: Extension context invalidated.
