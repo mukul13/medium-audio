@@ -1,39 +1,45 @@
-import React from "react";
+import React from 'react';
+import {connect} from 'react-redux';
+import {  Fab, Grid, Divider, Typography, Card } from '@material-ui/core';
+import {PlayArrow, Stop} from '@material-ui/icons';
+import { makeStyles } from '@material-ui/core/styles';
 
-export default class Index extends React.Component {
+class Index extends React.Component {
   constructor(props) {
     super(props);
   }
 
-  // componentDidMount() {
-  // 	document.addEventListener('click', () => {
-  // 		let blogText = ''
-  // 		if(document) {
-  // 			const content = document.querySelectorAll('[data-selectable-paragraph]')
-  // 			console.log('Content')
-  // 			console.log(content)
-  // 			content.forEach((c, index) => {
-  // 			  blogText = `${blogText} ${c.innerText}`
-  // 			})
-  // 		}
-  // 		console.log('Blog Text')
-  // 		console.log(blogText)
-  // 	})
-  // }
-
   render() {
-  	console.log('hello wors')
-  	let blogText = ''
-  	if(document) {
-  		const content = document.querySelectorAll('[data-selectable-paragraph]')
-  		console.log('Content')
-  		console.log(content)
-  		content.forEach((c, index) => {
-  		  blogText = `${blogText} ${c.innerText}`
-  		})
-  	}
-  	console.log('Blog Text')
-  	console.log(blogText)
-    return <div>{blogText}</div>;
+    return <Grid container spacing={3} style={{textAlign: 'center'}}>
+        <Typography gutterBottom variant="h5" component="h2">
+          Nothing is playing right now.
+        </Typography>
+        <Divider />
+        <Grid item xs={6}>
+          <Fab color='primary' aria-label='play'>
+            <PlayArrow />
+          </Fab>
+        </Grid>
+        <Grid item xs={6}>
+          <Fab color='primary' aria-label='stop'>
+            <Stop />
+          </Fab>
+        </Grid>
+        <Divider />
+      </Grid>
   }
 }
+
+const useStyles = makeStyles(theme => ({
+  root: {
+    width: 'maxContent'
+  }
+}));
+
+const mapStateToProps = (state) => {
+  return {
+    story: state.story
+  };
+};
+
+export default connect(mapStateToProps)(Index);
