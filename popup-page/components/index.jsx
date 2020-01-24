@@ -14,7 +14,8 @@ class Index extends React.Component {
   }
 
   unpause = () => {
-    speechSynthesis.resume()
+    console.log('resuming')
+    window.speechSynthesis.resume()
   }
 
   stop = () => {
@@ -30,8 +31,22 @@ class Index extends React.Component {
   }
 
   render() {
+      //     <Typography gutterBottom variant="h5" component="h5" style={{flex: 'auto'}}>
+      // {
+        // this.props.isPlaying ? 
+        // <Link href={document.URL}>Medium Blog Link</Link> 
+        // : 'Nothing is playing right now.'
+      // }
+    // </Typography>
+    // <Grid item xs={4} >
+        // <Fab color='primary' aria-label='pause'
+          // onClick={this.pause}
+          // style={{marginRight: '10px'}}
+        // >
+          // <Pause />
+        // </Fab>
+      // </Grid>
      if (!('speechSynthesis' in window)) {
-    // speechSynthesis.speak(new SpeechSynthesisUtterance(this.props.count));
       return (
         <div>
           <Grid container spacing={3} style={{textAlign: 'center', padding: '25px'}}>
@@ -44,29 +59,15 @@ class Index extends React.Component {
     }
 
     return <Container>
-    <Typography gutterBottom variant="h5" component="h5" style={{flex: 'auto'}}>
-      {
-        this.props.isPlaying ? 
-        <Link href={document.URL}>Medium Blog Link</Link> 
-        : 'Nothing is playing right now.'
-      }
-    </Typography>
     <Grid container spacing={3} style={{textAlign: 'center', padding: '25px'}}>
       <Divider />
-      <Grid item xs={4} >
-        <Fab color='primary' aria-label='pause'
-          onClick={this.pause}
-          style={{marginRight: '10px'}}
-        >
-          <Pause />
-        </Fab>
-      </Grid>
-      <Grid item xs={4}>
+      
+      <Grid item xs={6}>
         <Fab color='primary' aria-label='play' onClick={this.unpause}>
           <PlayArrow />
         </Fab>
       </Grid>
-      <Grid item xs={4}>
+      <Grid item xs={6}>
         <Fab color='primary' aria-label='stop'>
           <Stop onClick={this.stop} />
         </Fab>
