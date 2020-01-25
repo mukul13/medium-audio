@@ -22,7 +22,7 @@ class Index extends React.Component {
 
 
     speechSynthesis.cancel()
-    const utterThis = new SpeechSynthesisUtterance(blogText);
+    let utterThis = new SpeechSynthesisUtterance(blogText);
     speechSynthesis.speak(utterThis);
   }
 

@@ -46,11 +46,16 @@ class Index extends React.Component {
           // <Pause />
         // </Fab>
       // </Grid>
+      // <Grid item xs={6}>
+      //  <Fab color='primary' aria-label='play' onClick={this.unpause}>
+      //    <PlayArrow />
+      //  </Fab>
+      //</Grid>
      if (!('speechSynthesis' in window)) {
       return (
         <div>
-          <Grid container spacing={3} style={{textAlign: 'center', padding: '25px'}}>
-            <Typography gutterBottom variant="h5" component="h5" style={{flex: 'auto', textAlign: 'center'}}>
+          <Grid container spacing={3} style={{textAlign: 'center', padding: '25px', justifyContent: 'center'}}>
+            <Typography gutterBottom variant="h5" component="h5" style={{flex: 'auto', textAlign: 'center', color: '#4153af'}}>
               This extension currently does not support this browser version.
             </Typography>
           </Grid>
@@ -59,19 +64,14 @@ class Index extends React.Component {
     }
 
     return <Container>
-    <Grid container spacing={3} style={{textAlign: 'center', padding: '25px'}}>
-      <Divider />
-      
-      <Grid item xs={6}>
-        <Fab color='primary' aria-label='play' onClick={this.unpause}>
-          <PlayArrow />
-        </Fab>
-      </Grid>
-      <Grid item xs={6}>
+      <Typography gutterBottom variant="h5" component="h5" style={{flex: 'auto', textAlign: 'center', justifyContent: 'center', color: '#4153af'}}>
+        Medium Audio
+    </Typography>
+    <Divider />
+    <Grid container spacing={3} style={{textAlign: 'center', padding: '25px', justifyContent: 'center'}}>
         <Fab color='primary' aria-label='stop'>
           <Stop onClick={this.stop} />
         </Fab>
-      </Grid>
       <Divider />
     </Grid>
     </Container>
