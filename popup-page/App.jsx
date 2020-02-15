@@ -10,7 +10,7 @@ Element.setAttribute("id", "dfghbnjmERHJKFGHNMVBNMFBNMbmvvxnbdgf");
 Element.className = 'rootStyle';
 document.body.appendChild(Element);
 
-// demo comment
+// demo comment 2
 // wait for the store to connect to the background page
 store.ready().then(() => {
 	ReactDOM.render(
