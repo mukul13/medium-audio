@@ -1,0 +1,12 @@
+{
+  "plugins": [
+    "git-tag",
+    ["slack", { "url": "https://hooks.slack.com/services/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", "publishPreRelease": true }],
+  ],
+  "owner": "mukul13",
+  "repo": "medium-audio",
+  "name": "Mukul Chaware",
+  "email": "mukul.chaware13@gmail.com",
+  "onlyPublishWithReleaseLabel": true
+}
+
