@@ -2,6 +2,24 @@
 
 #### 🐛 Bug Fix
 
+- Test [#38](https://github.com/mukul13/medium-audio/pull/38) ([@mukul13](https://github.com/mukul13))
+
+#### ⚠️ Pushed to `master`
+
+- slack integ (mukul.chaware13@gmail.com)
+- Merge branch 'master' of https://github.com/mukul13/medium-audio (mukul.chaware13@gmail.com)
+
+#### Authors: 2
+
+- Mukul (mukul.chaware13@gmail.com)
+- Mukul Chaware ([@mukul13](https://github.com/mukul13))
+
+---
+
+# v1.2.14 (Wed Oct 07 2020)
+
+#### 🐛 Bug Fix
+
 - test [#38](https://github.com/mukul13/medium-audio/pull/38) ([@mukul13](https://github.com/mukul13))
 
 #### Authors: 1
