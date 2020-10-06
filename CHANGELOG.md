@@ -1,3 +1,17 @@
+# v1.2.8 (Wed Oct 07 2020)
+
+#### ⚠️ Pushed to `master`
+
+- sfasvc (mukul.chaware13@gmail.com)
+- test change ([@mukul13](https://github.com/mukul13))
+
+#### Authors: 2
+
+- Mukul (mukul.chaware13@gmail.com)
+- Mukul Chaware ([@mukul13](https://github.com/mukul13))
+
+---
+
 # v1.2.7 (Wed Oct 07 2020)
 
 
