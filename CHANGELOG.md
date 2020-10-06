@@ -1,3 +1,15 @@
+# v1.2.14 (Wed Oct 07 2020)
+
+#### 🐛 Bug Fix
+
+- test [#38](https://github.com/mukul13/medium-audio/pull/38) ([@mukul13](https://github.com/mukul13))
+
+#### Authors: 1
+
+- Mukul Chaware ([@mukul13](https://github.com/mukul13))
+
+---
+
 # v1.2.13 (Wed Oct 07 2020)
 
 
