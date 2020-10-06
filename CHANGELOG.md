@@ -1,3 +1,15 @@
+# v1.2.12 (Wed Oct 07 2020)
+
+#### ⚠️ Pushed to `master`
+
+- dsd (mukul.chaware13@gmail.com)
+
+#### Authors: 1
+
+- Mukul (mukul.chaware13@gmail.com)
+
+---
+
 # v1.2.11 (Wed Oct 07 2020)
 
 #### ⚠️ Pushed to `master`
