@@ -1,3 +1,15 @@
+# v1.2.11 (Wed Oct 07 2020)
+
+#### ⚠️ Pushed to `master`
+
+- sfas (mukul.chaware13@gmail.com)
+
+#### Authors: 1
+
+- Mukul (mukul.chaware13@gmail.com)
+
+---
+
 # v1.2.10 (Wed Oct 07 2020)
 
 #### ⚠️ Pushed to `master`
