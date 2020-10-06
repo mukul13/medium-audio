@@ -1,7 +1,7 @@
 {
   "plugins": [
     "git-tag",
-    ["slack", { "url": "https://hooks.slack.com/services/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", "publishPreRelease": true }],
+      ["slack", "https://hooks.slack.com/services/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"],
   ],
   "owner": "mukul13",
   "repo": "medium-audio",
