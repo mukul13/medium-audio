@@ -1,3 +1,15 @@
+# v1.2.16 (Wed Oct 07 2020)
+
+#### ⚠️ Pushed to `master`
+
+- sdsds (mukul.chaware13@gmail.com)
+
+#### Authors: 1
+
+- Mukul (mukul.chaware13@gmail.com)
+
+---
+
 # v1.2.14 (Wed Oct 07 2020)
 
 #### 🐛 Bug Fix
