@@ -1,3 +1,15 @@
+# v1.2.17 (Wed Oct 07 2020)
+
+#### ⚠️ Pushed to `master`
+
+- shssdjds ([@mukul13](https://github.com/mukul13))
+
+#### Authors: 1
+
+- Mukul Chaware ([@mukul13](https://github.com/mukul13))
+
+---
+
 # v1.2.16 (Wed Oct 07 2020)
 
 #### ⚠️ Pushed to `master`
