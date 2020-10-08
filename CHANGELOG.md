@@ -1,3 +1,9 @@
+# v1.2.24 (Thu Oct 08 2020)
+
+
+
+---
+
 # v1.2.23 (Thu Oct 08 2020)
 
 #### ⚠️ Pushed to `master`
