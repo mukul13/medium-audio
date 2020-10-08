@@ -1,3 +1,15 @@
+# v1.2.21 (Thu Oct 08 2020)
+
+#### ⚠️ Pushed to `master`
+
+- auto rc (mukul.chaware13@gmail.com)
+
+#### Authors: 1
+
+- Mukul (mukul.chaware13@gmail.com)
+
+---
+
 # v1.2.20 (Thu Oct 08 2020)
 
 #### ⚠️ Pushed to `master`
