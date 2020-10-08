@@ -1,3 +1,15 @@
+# v1.2.18 (Thu Oct 08 2020)
+
+#### ⚠️ Pushed to `master`
+
+- checking ms team plugin (mukul.chaware13@gmail.com)
+
+#### Authors: 1
+
+- Mukul (mukul.chaware13@gmail.com)
+
+---
+
 # v1.2.17 (Wed Oct 07 2020)
 
 #### ⚠️ Pushed to `master`
