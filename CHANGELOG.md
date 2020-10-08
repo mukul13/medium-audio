@@ -1,3 +1,15 @@
+# v1.2.22 (Thu Oct 08 2020)
+
+#### ⚠️ Pushed to `master`
+
+- checking auto rc scenarios (mukul.chaware13@gmail.com)
+
+#### Authors: 1
+
+- Mukul (mukul.chaware13@gmail.com)
+
+---
+
 # v1.2.21 (Thu Oct 08 2020)
 
 #### ⚠️ Pushed to `master`
