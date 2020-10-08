@@ -2,7 +2,7 @@
   "plugins": [
     "git-tag",
     "slack",
-    ["microsoft-teams", { "url": "https://outlook.office.com/webhook/2f22023e-aac2-4ef2-b54b-41a435b5b24b@6feea000-3755-43ff-8c2e-12ae0c3a4970/IncomingWebhook/ac7652d252a14d9e91964b1a92f0324d/2e469659-1ba7-499b-9053-83051dc5b67b" }],
+    ["microsoft-teams", { "url": "https://outlook.office.com/webhook/2f22023e-aac2-4ef2-b54b-41a435b5b24b@6feea000-3755-43ff-8c2e-12ae0c3a4970/IncomingWebhook/ac7652d252a14d9e91964b1a92f0324d/2e469659-1ba7-499b-9053-83051dc5b67b", atTarget: "here" }],
   ],
   "owner": "mukul13",
   "repo": "medium-audio",
