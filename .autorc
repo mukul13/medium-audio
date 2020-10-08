@@ -1,7 +1,8 @@
 {
   "plugins": [
     "git-tag",
-      "slack"
+      "slack",
+      "microsoft-teams"
   ],
   "owner": "mukul13",
   "repo": "medium-audio",
