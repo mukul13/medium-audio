@@ -1,3 +1,15 @@
+# v1.2.19 (Thu Oct 08 2020)
+
+#### ⚠️ Pushed to `master`
+
+- ms teams check (mukul.chaware13@gmail.com)
+
+#### Authors: 1
+
+- Mukul (mukul.chaware13@gmail.com)
+
+---
+
 # v1.2.18 (Thu Oct 08 2020)
 
 #### ⚠️ Pushed to `master`
