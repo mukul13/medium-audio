@@ -1,3 +1,15 @@
+# v1.2.25 (Tue Oct 13 2020)
+
+#### ⚠️ Pushed to `master`
+
+- ms teams webhook check ([@mukul13](https://github.com/mukul13))
+
+#### Authors: 1
+
+- Mukul Chaware ([@mukul13](https://github.com/mukul13))
+
+---
+
 # v1.2.24 (Thu Oct 08 2020)
 
 
