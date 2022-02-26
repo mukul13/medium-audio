@@ -7,17 +7,17 @@
   resolved "https://registry.yarnpkg.com/@atomist/slack-messages/-/slack-messages-1.1.1.tgz#9de42932e89065fb4fe4842978ca2d1ed3424cea"
   integrity sha512-m2OzlTDbhvzK4hgswH9Lx0cdpq1AntXu53Klz5RGkFfuoDvKsnlU7tmtVfNWtUiP0zZbGtrb/BZYH7aB6TRnMA==
 
-"@auto-canary/bot-list@9.54.6-canary.1570.19251.0":
-  version "9.54.6-canary.1570.19251.0"
-  resolved "https://registry.yarnpkg.com/@auto-canary/bot-list/-/bot-list-9.54.6-canary.1570.19251.0.tgz#78cb111889a995ded55c1b58ec7ed2355453e02e"
-  integrity sha512-jO+mzntZgG7B66t3KmW1fqSlbsY4r4HqzWwGDIk6BcknrbRj1e8fjBP55ovcBYdFcbUfvHL5gZXzHEKcjVsgbQ==
+"@auto-canary/bot-list@9.55.1-canary.1570.19304.0":
+  version "9.55.1-canary.1570.19304.0"
+  resolved "https://registry.yarnpkg.com/@auto-canary/bot-list/-/bot-list-9.55.1-canary.1570.19304.0.tgz#073ed31ff598bbe9ab7f927320a196daf9fd7fa6"
+  integrity sha512-kae638itevgTlGnQexFTL5H2C/bmx08KEZNOTvX7pwUBTgTypiG35cVI4e0aaRAwdSZ/0I1r/jHAxcHv7Pob/A==
 
-"@auto-canary/core@9.54.6-canary.1570.19251.0":
-  version "9.54.6-canary.1570.19251.0"
-  resolved "https://registry.yarnpkg.com/@auto-canary/core/-/core-9.54.6-canary.1570.19251.0.tgz#07e3cef16a0548f555124767ee34ca1e078412fc"
-  integrity sha512-HZcp2eXkDA7sqbGoJGppYaysm7XKwJk6e0DUmpHwL8B6A6W+2pAsW2FzdSXTnw079BPzSBB3qjIlImSoGdfgfw==
+"@auto-canary/core@9.55.1-canary.1570.19304.0":
+  version "9.55.1-canary.1570.19304.0"
+  resolved "https://registry.yarnpkg.com/@auto-canary/core/-/core-9.55.1-canary.1570.19304.0.tgz#ee8f54a11db9d07181cdd084fad40bdd892cdba7"
+  integrity sha512-CjcYwNcSV3zZvDlYwCaRCfNALfzHbKrPZ1nDu3hibmJYpqBID8WvYUvnTXoTlQ45gwmHE4SYC8lkJDSaSNP1/A==
   dependencies:
-    "@auto-canary/bot-list" "9.54.6-canary.1570.19251.0"
+    "@auto-canary/bot-list" "9.55.1-canary.1570.19304.0"
     "@octokit/plugin-enterprise-compatibility" "^1.2.2"
     "@octokit/plugin-retry" "^3.0.1"
     "@octokit/plugin-throttling" "^3.2.0"
@@ -54,14 +54,24 @@
     typescript-memoize "^1.0.0-alpha.3"
     url-join "^4.0.0"
 
-"@auto-canary/microsoft-teams@9.54.6-canary.1570.19251.0":
-  version "9.54.6-canary.1570.19251.0"
-  resolved "https://registry.yarnpkg.com/@auto-canary/microsoft-teams/-/microsoft-teams-9.54.6-canary.1570.19251.0.tgz#64d493ac9b142c1bf1622f8df9fc9526f2b829ed"
-  integrity sha512-gqQQB400cFDFN2v0vub8uyk1cvFaIPWX8C8LnAuUChmvSt3NI7qPdlJoG1IFZCOk8HzOum+KJGmIh/zLG9pO0Q==
+"@auto-canary/microsoft-teams@^9.55.1-canary.1570.19304.0":
+  version "9.55.1-canary.1570.19304.0"
+  resolved "https://registry.yarnpkg.com/@auto-canary/microsoft-teams/-/microsoft-teams-9.55.1-canary.1570.19304.0.tgz#41269cb8640e23fcf6d918e373c8c63fc434e9be"
+  integrity sha512-UmVrXhyDc2XMH6CM6MsHzbFW1CZ2ezec3rwCyer8rct2AWy/SnWjPIY6xPVTr3xQoHJRAFvo7T1UHGOq/c84WA==
+  dependencies:
+    "@auto-canary/core" "9.55.1-canary.1570.19304.0"
+    "@auto-canary/slack" "9.55.1-canary.1570.19304.0"
+    https-proxy-agent "^5.0.0"
+    node-fetch "2.6.1"
+    tslib "2.0.1"
+
+"@auto-canary/slack@9.55.1-canary.1570.19304.0":
+  version "9.55.1-canary.1570.19304.0"
+  resolved "https://registry.yarnpkg.com/@auto-canary/slack/-/slack-9.55.1-canary.1570.19304.0.tgz#b024125a6beaa36467a0944f896210eeecac1099"
+  integrity sha512-x1tEiKcN82JwoEayxw7Fwb4qsgpMeNajRrrTa18bWfBpi2Eojktepc4r8BRfikKaHZYYD8qDn2q2tggbJSkuwA==
   dependencies:
     "@atomist/slack-messages" "~1.1.0"
-    "@auto-canary/core" "9.54.6-canary.1570.19251.0"
-    "@octokit/rest" "^18.0.0"
+    "@auto-canary/core" "9.55.1-canary.1570.19304.0"
     fp-ts "^2.5.3"
     https-proxy-agent "^5.0.0"
     io-ts "^2.1.2"
@@ -6711,9 +6721,9 @@ querystring@0.2.0:
   integrity sha1-sgmEkgO7Jd+CDadW50cAWHhSFiA=
 
 querystringify@^2.1.1:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/querystringify/-/querystringify-2.1.1.tgz#60e5a5fd64a7f8bfa4d2ab2ed6fdf4c85bad154e"
-  integrity sha512-w7fLxIRCRT7U8Qu53jQnJyPkYZIaR4n5151KMfcJlO/A9397Wxb1amJvROTK6TOnp7PfoAmg/qXiNHI+08jRfA==
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/querystringify/-/querystringify-2.2.0.tgz#3345941b4153cb9d082d8eee4cda2016a9aef7f6"
+  integrity sha512-FIqgj2EUvTa7R50u0rGsyTftzjYmv/a3hO345bZNrqabNqjtgiDMgmo4mkUjd+nzU5oF3dClKqFIPUKybUyqoQ==
 
 randombytes@^2.0.0, randombytes@^2.0.1, randombytes@^2.0.5:
   version "2.1.0"
@@ -8223,9 +8233,9 @@ url-parse-lax@^3.0.0:
     prepend-http "^2.0.0"
 
 url-parse@^1.4.3:
-  version "1.4.7"
-  resolved "https://registry.yarnpkg.com/url-parse/-/url-parse-1.4.7.tgz#a8a83535e8c00a316e403a5db4ac1b9b853ae278"
-  integrity sha512-d3uaVyzDB9tQoSXFvuSUNFibTd9zxd2bkVrDRvF5TmvWWQwqE4lgYJ5m+x1DbecWkw+LK4RNl2CU1hHuOKPVlg==
+  version "1.5.10"
+  resolved "https://registry.yarnpkg.com/url-parse/-/url-parse-1.5.10.tgz#9d3c2f736c1d75dd3bd2be507dcc111f1e2ea9c1"
+  integrity sha512-WypcfiRhfeUP9vvF0j6rw0J3hrWrw6iZv3+22h6iRMJ/8z1Tj6XfLP4DsUix5MhMPnXpiHDoKyoZ/bdCkwBCiQ==
   dependencies:
     querystringify "^2.1.1"
     requires-port "^1.0.0"
