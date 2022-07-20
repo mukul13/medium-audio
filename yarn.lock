@@ -7,17 +7,17 @@
   resolved "https://registry.yarnpkg.com/@atomist/slack-messages/-/slack-messages-1.1.1.tgz#9de42932e89065fb4fe4842978ca2d1ed3424cea"
   integrity sha512-m2OzlTDbhvzK4hgswH9Lx0cdpq1AntXu53Klz5RGkFfuoDvKsnlU7tmtVfNWtUiP0zZbGtrb/BZYH7aB6TRnMA==
 
-"@auto-canary/bot-list@9.54.6-canary.1570.19251.0":
-  version "9.54.6-canary.1570.19251.0"
-  resolved "https://registry.yarnpkg.com/@auto-canary/bot-list/-/bot-list-9.54.6-canary.1570.19251.0.tgz#78cb111889a995ded55c1b58ec7ed2355453e02e"
-  integrity sha512-jO+mzntZgG7B66t3KmW1fqSlbsY4r4HqzWwGDIk6BcknrbRj1e8fjBP55ovcBYdFcbUfvHL5gZXzHEKcjVsgbQ==
+"@auto-canary/bot-list@9.55.1-canary.1570.19304.0":
+  version "9.55.1-canary.1570.19304.0"
+  resolved "https://registry.yarnpkg.com/@auto-canary/bot-list/-/bot-list-9.55.1-canary.1570.19304.0.tgz#073ed31ff598bbe9ab7f927320a196daf9fd7fa6"
+  integrity sha512-kae638itevgTlGnQexFTL5H2C/bmx08KEZNOTvX7pwUBTgTypiG35cVI4e0aaRAwdSZ/0I1r/jHAxcHv7Pob/A==
 
-"@auto-canary/core@9.54.6-canary.1570.19251.0":
-  version "9.54.6-canary.1570.19251.0"
-  resolved "https://registry.yarnpkg.com/@auto-canary/core/-/core-9.54.6-canary.1570.19251.0.tgz#07e3cef16a0548f555124767ee34ca1e078412fc"
-  integrity sha512-HZcp2eXkDA7sqbGoJGppYaysm7XKwJk6e0DUmpHwL8B6A6W+2pAsW2FzdSXTnw079BPzSBB3qjIlImSoGdfgfw==
+"@auto-canary/core@9.55.1-canary.1570.19304.0":
+  version "9.55.1-canary.1570.19304.0"
+  resolved "https://registry.yarnpkg.com/@auto-canary/core/-/core-9.55.1-canary.1570.19304.0.tgz#ee8f54a11db9d07181cdd084fad40bdd892cdba7"
+  integrity sha512-CjcYwNcSV3zZvDlYwCaRCfNALfzHbKrPZ1nDu3hibmJYpqBID8WvYUvnTXoTlQ45gwmHE4SYC8lkJDSaSNP1/A==
   dependencies:
-    "@auto-canary/bot-list" "9.54.6-canary.1570.19251.0"
+    "@auto-canary/bot-list" "9.55.1-canary.1570.19304.0"
     "@octokit/plugin-enterprise-compatibility" "^1.2.2"
     "@octokit/plugin-retry" "^3.0.1"
     "@octokit/plugin-throttling" "^3.2.0"
@@ -54,14 +54,24 @@
     typescript-memoize "^1.0.0-alpha.3"
     url-join "^4.0.0"
 
-"@auto-canary/microsoft-teams@9.54.6-canary.1570.19251.0":
-  version "9.54.6-canary.1570.19251.0"
-  resolved "https://registry.yarnpkg.com/@auto-canary/microsoft-teams/-/microsoft-teams-9.54.6-canary.1570.19251.0.tgz#64d493ac9b142c1bf1622f8df9fc9526f2b829ed"
-  integrity sha512-gqQQB400cFDFN2v0vub8uyk1cvFaIPWX8C8LnAuUChmvSt3NI7qPdlJoG1IFZCOk8HzOum+KJGmIh/zLG9pO0Q==
+"@auto-canary/microsoft-teams@^9.55.1-canary.1570.19304.0":
+  version "9.55.1-canary.1570.19304.0"
+  resolved "https://registry.yarnpkg.com/@auto-canary/microsoft-teams/-/microsoft-teams-9.55.1-canary.1570.19304.0.tgz#41269cb8640e23fcf6d918e373c8c63fc434e9be"
+  integrity sha512-UmVrXhyDc2XMH6CM6MsHzbFW1CZ2ezec3rwCyer8rct2AWy/SnWjPIY6xPVTr3xQoHJRAFvo7T1UHGOq/c84WA==
+  dependencies:
+    "@auto-canary/core" "9.55.1-canary.1570.19304.0"
+    "@auto-canary/slack" "9.55.1-canary.1570.19304.0"
+    https-proxy-agent "^5.0.0"
+    node-fetch "2.6.1"
+    tslib "2.0.1"
+
+"@auto-canary/slack@9.55.1-canary.1570.19304.0":
+  version "9.55.1-canary.1570.19304.0"
+  resolved "https://registry.yarnpkg.com/@auto-canary/slack/-/slack-9.55.1-canary.1570.19304.0.tgz#b024125a6beaa36467a0944f896210eeecac1099"
+  integrity sha512-x1tEiKcN82JwoEayxw7Fwb4qsgpMeNajRrrTa18bWfBpi2Eojktepc4r8BRfikKaHZYYD8qDn2q2tggbJSkuwA==
   dependencies:
     "@atomist/slack-messages" "~1.1.0"
-    "@auto-canary/core" "9.54.6-canary.1570.19251.0"
-    "@octokit/rest" "^18.0.0"
+    "@auto-canary/core" "9.55.1-canary.1570.19304.0"
     fp-ts "^2.5.3"
     https-proxy-agent "^5.0.0"
     io-ts "^2.1.2"
@@ -1985,9 +1995,9 @@ buffer-fill@^1.0.0:
   integrity sha1-+PeLdniYiO858gXNY39o5wISKyw=
 
 buffer-from@^1.0.0:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/buffer-from/-/buffer-from-1.1.1.tgz#32713bc028f75c02fdb710d7c7bcec1f2c6070ef"
-  integrity sha512-MQcXEUbCKtEo7bhqEs6560Hyd4XaovZlO/k9V3hjVUF/zwW7KBVdSK4gIt/bzwS9MbR5qob+F5jusZsb0YQK2A==
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/buffer-from/-/buffer-from-1.1.2.tgz#2b146a6fd72e80b4f55d255f35ed59a3a9a41bd5"
+  integrity sha512-E+XQCRwSbaaiChtv6k6Dwgc+bx+Bs6vuKJHHl5kox/BaKbhiXzqQOwK4cO22yElGp2OCmjwVhT3HmxgyPGnJfQ==
 
 buffer-indexof@^1.0.0:
   version "1.1.1"
@@ -2361,15 +2371,10 @@ command-line-usage@^6.0.0:
     table-layout "^1.0.0"
     typical "^5.2.0"
 
-commander@^2.18.0, commander@^2.8.1:
+commander@^2.18.0, commander@^2.20.0, commander@^2.8.1:
   version "2.20.3"
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.20.3.tgz#fd485e84c03eb4881c20722ba48035e8531aeb33"
   integrity sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==
-
-commander@^2.20.0:
-  version "2.20.0"
-  resolved "https://registry.yarnpkg.com/commander/-/commander-2.20.0.tgz#d58bb2b5c1ee8f87b0d340027e9e94e222c5a422"
-  integrity sha512-7j2y+40w61zy6YC2iRNpUe/NwhNyoXrYpHMrSunaMG64nRnaf96zO/KMQR4OyN/UnE5KLyEBnKHd4aG3rskjpQ==
 
 commondir@^1.0.1:
   version "1.0.1"
@@ -7480,9 +7485,9 @@ source-map-resolve@^0.5.0:
     urix "^0.1.0"
 
 source-map-support@~0.5.12:
-  version "0.5.13"
-  resolved "https://registry.yarnpkg.com/source-map-support/-/source-map-support-0.5.13.tgz#31b24a9c2e73c2de85066c0feb7d44767ed52932"
-  integrity sha512-SHSKFHadjVA5oR4PPqhtAVdcBWwRYVd6g6cAXnIbRiIwc2EhPrTuKUBdSLvlEKyIP3GCf89fltvcZiP9MMFA1w==
+  version "0.5.21"
+  resolved "https://registry.yarnpkg.com/source-map-support/-/source-map-support-0.5.21.tgz#04fe7c7f9e1ed2d662233c28cb2b35b9f63f6e4f"
+  integrity sha512-uBHU3L3czsIyYXKX88fdrGovxdSCoTGDRZ6SYXtSRxLZUzHg5P/66Ht6uoUlHu9EZod+inXhKo3qQgwXUT/y1w==
   dependencies:
     buffer-from "^1.0.0"
     source-map "^0.6.0"
@@ -7904,9 +7909,9 @@ terser-webpack-plugin@^1.4.1:
     worker-farm "^1.7.0"
 
 terser@^4.1.2:
-  version "4.2.1"
-  resolved "https://registry.yarnpkg.com/terser/-/terser-4.2.1.tgz#1052cfe17576c66e7bc70fcc7119f22b155bdac1"
-  integrity sha512-cGbc5utAcX4a9+2GGVX4DsenG6v0x3glnDi5hx8816X1McEAwPlPgRtXPJzSBsbpILxZ8MQMT0KvArLuE0HP5A==
+  version "4.8.1"
+  resolved "https://registry.yarnpkg.com/terser/-/terser-4.8.1.tgz#a00e5634562de2239fd404c649051bf6fc21144f"
+  integrity sha512-4GnLC0x667eJG0ewJTa6z/yXrbLGv80D9Ru6HIpCQmO+Q4PfEtBFi0ObSckqwL6VyQv/7ENJieXHo2ANmdQwgw==
   dependencies:
     commander "^2.20.0"
     source-map "~0.6.1"
